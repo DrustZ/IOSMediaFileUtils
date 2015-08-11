@@ -1,18 +1,18 @@
 //
-//  IOSMediaFileUtils.m
+//  MediaUtils.m
 //  FunCam
 //
 //  Created by 明瑞 on 14/12/22.
 //  Copyright (c) 2014年 明瑞. All rights reserved.
 
-#import "IOSMediaFileUtils.h"
+#import "MediaUtils.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import <CoreMedia/CoreMedia.h>
 #import <AVFoundation/AVFoundation.h>
 #import <CoreFoundation/CoreFoundation.h>
 #import <AVFoundation/AVBase.h>
 
-@implementation IOSMediaFileUtils
+@implementation MediaUtils
 
 + (void) SaveFileAtCurrentTime:(NSURL *)fromUrl
 {
