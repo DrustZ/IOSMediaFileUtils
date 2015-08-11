@@ -1,5 +1,5 @@
 //
-//  IOSMediaFileUtils.h
+//  MediaUtils.h
 //  FunCam
 //
 //  Created by 明瑞 on 14/12/22.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface IOSMediaFileUtils : NSObject
+@interface MediaUtils : NSObject
 
 + (void) SaveFileAtCurrentTime:(NSURL *)fromUrl;
 + (NSURL*) SaveImageAtCurrentTime:(UIImage*)image;
