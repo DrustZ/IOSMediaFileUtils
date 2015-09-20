@@ -18,4 +18,6 @@
                                    outputURL:(NSURL*)outputURL;
 + (void)convertToMp4:(NSURL*)inputURL
            outputURL:(NSURL*)outputURL;
++ (UIImage *) imageWithView:(UIView *)view;
++ (UIImage*)imageByCombiningImage:(UIImage*)firstImage withImage:(UIImage*)secondImage;
 @end
