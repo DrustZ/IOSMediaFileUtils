@@ -17,3 +17,9 @@ An IOS tool class that contains several operations on video and image.
 
 5. `+ (void)convertToMp4:(NSURL*)inputURL outputURL:(NSURL*)outputURL`
 <br> Convert the `.mov` to `.mp4`
+
+6. `+ (UIImage *) imageWithView:(UIView *)view`
+<br> Convert `UIView` to `UIImage` and maintains the transparency of the `UIView`'s background setting.
+
+7. `+ (UIImage*)imageByCombiningImage:(UIImage*)firstImage withImage:(UIImage*)secondImage`
+<br> Overlay the second Image on the first one.
